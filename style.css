@@ -1,0 +1,61 @@
+        head {
+            background-color: #8db195;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(201, 233, 224);
+            text-align: center; /* Center-align text */
+        }
+        h1, h2 {
+            color: #000000; /* Primary color */
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Center-align image */
+            margin: 0 auto; /* Center-align image */
+        }
+        /* Navigation styles */
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #8db195;
+            text-align: center;
+        }
+        .navbar li {
+            display:inline-block;
+        }
+        .navbar a {
+            display: block;
+            color: #333;
+            padding: 10px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .navbar a:hover {
+            background-color: #607c62;
+        }
+        /* Awards and Honors styles */
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        .section li {
+            padding: 5px 0;
+            color: #555;
+            text-align: center;
+        }
+        .orderedList {
+            text-align: left;
+            margin-left: 500px;
+            margin-right: 300px;
+        }
+        .tableauPlaceholder {
+            margin-left: 135px
+        }
